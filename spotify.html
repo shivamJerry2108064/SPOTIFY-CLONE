@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- cdnjs link for icons input -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" href="./images/logo.png">
+    <title>spotify-web player: music for everyone</title>
+    <link rel="stylesheet" href="spotify.css">
+
+    <!-- google font links  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1 ;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="heading">
+                    <div class="lib-link nav-option">
+                        <img src="/images/library_icon.png">
+                        <a href="#">your library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">create your first playlist</p>
+                        <p class="box-p2">it's easy, we'll help you</p>
+                        <button class="badge">create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">let's find some podcasts to follow</p>
+                        <p class="box-p2">we'll keep you updated on new episodes</p>
+                        <button class="badge">browse podcasts</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./images/backward_icon.png">  
+                    <img src="./images/forward_icon.png" class="hide"> 
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>   
+                    <button class="badge nav-item dark-button">install app</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+            </div>
+            
+            <!-- top-50 -->
+
+            <h2>START YOUR DAY WITH TOP-50 </h2>
+            <div class="card-container">
+                <div class="individual-card">
+                    <img src="./images/song11.webp" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">your daily updates of the most played tracks...</p>
+                </div>
+            </div>
+
+            <!-- trending now near you -->
+
+            <h2>recently played</h2>
+            <div class="card-container">
+                <div class="individual-card">
+                    <img src="./images/song1.jpg" class="card-img">
+                    <p class="card-title">Mohabatein</p>
+                    <p class="card-info">udit narayan</p>
+                </div>
+                <div class="individual-card">
+                    <img src="./images/song2.jpg" class="card-img">
+                    <p class="card-title">ranbir's special</p>
+                    <p class="card-info">Ed Sheeran</p>
+                </div>
+                <div class="individual-card">
+                    <img src="./images/song3.jpg" class="card-img">
+                    <p class="card-title">Jab we met Original</p>
+                    <p class="card-info">arjit singh</p>
+                </div>
+                <div class="individual-card">
+                    <img src="./images/song4.jpg" class="card-img">
+                    <p class="card-title">kaho naa pyar hain</p>
+                    <p class="card-info">kumar sanu</p>
+                </div>
+                <div class="individual-card">
+                    <img src="./images/song5.jpg" class="card-img">
+                    <p class="card-title">Deewar song</p>
+                    <p class="card-info">amit ji</p>
+                </div>
+            </div>
+
+
+            <h2>trending songs and podcasts near you</h2>
+            <div class="card-container">
+                <div class="individual-card">
+                    <img src="./images/song6.jpg" class="card-img">
+                    <p class="card-title">Mela</p>
+                    <p class="card-info">shilpa rao & vishal-shekar</p>
+                </div>
+                <div class="individual-card">
+                    <img src="./images/song7.webp" class="card-img">
+                    <p class="card-title">Coolie</p>
+                    <p class="card-info">premlal & Amitabh bhattacharya</p>
+                </div>
+                <div class="individual-card">
+                    <img src="./images/song8.jpg" class="card-img">
+                    <p class="card-title">Lagaan</p>
+                    <p class="card-info">Sonu nigam & A.R Rehman</p>
+                </div>
+                <div class="individual-card">
+                    <img src="./images/song9.jpg" class="card-img">
+                    <p class="card-title">Second hand Jawani</p>
+                    <p class="card-info">arjit singh & shilpa rao</p>
+                </div>
+                <div class="individual-card">
+                    <img src="./images/trs.jpeg" class="card-img">
+                    <p class="card-title">The Ranveer Show</p>
+                    <p class="card-info">Ranveer allahbadia aka beerbiceps brings you #The Ranveer Show</p>
+                </div>
+                <div class="individual-card">
+                    <img src="./images/podcast.jpeg" class="card-img">
+                    <p class="card-title">finshots daily</p>
+                    <p class="card-info">daily 5 min podcast for finance & business in plain english .india .focused</p>
+                </div>
+            </div>
+            <h2>srk romance special </h2>
+            <div class="card-container">
+                <div class="individual-card">
+                    <img src="./images/srk song 3.jpg" class="card-img">
+                    <p class="card-title">king of romance special</p>
+                    <p class="card-info">playlist contain all your fav.....</p>cks...
+                </div>
+                <div class="individual-card">
+                    <img src="./images/srk song1.jpg" class="card-img">
+                    <p class="card-title">josh</p>
+                    <p class="card-info">javed ali & shakthisree gopalan</p>
+                </div>
+                <div class="individual-card">
+                    <img src="./images/dunki.jpg" class="card-img">
+                    <p class="card-title">Dunki</p>
+                    <p class="card-info">Arjit Singh & Harshdeep kaur</p>
+                </div>
+                <div class="individual-card">
+                    <img src="./images/jinda banda.webp" class="card-img">
+                    <p class="card-title">Jinda Banda</p>
+                    <p class="card-info">rashid khan</p>
+                </div>
+                <div class="individual-card">
+                    <img src="./images/o mahi.jpg" class="card-img">
+                    <p class="card-title">O Maahi</p>
+                    <p class="card-info">sonu nigam</p>
+                </div>
+                <div class="individual-card">
+                    <img src="./images/srk mashup.webp" class="card-img">
+                    <p class="card-title">challa ki love da firre...</p>
+                    <p class="card-info">Abhijeet Bhattacharya & alka yagnik </p>
+                </div>
+            </div>
+            <br></br><br></br><br></br>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="player1">
+                <div class="left-side-player">
+                    <div class="img">
+                        <img src="./images/gangsta.jpg" class="player-img">
+                    </div>
+                    <div class="content">
+                        <p class="para-1">gangsta' paradise</p>
+                        <p class="para-2">coolio & kylian Mash</p>
+                    </div>
+                    <div class="heart"><i class="fa-solid fa-heart"></i></div>
+                </div>
+                
+                
+            </div>
+            <div class="player2">
+                <div class="player-controls">
+                    <img src="./images/player_icon1.png" class="player-control-icon">
+                    <img src="./images/player_icon2.png" class="player-control-icon">
+                    <img src="./images/player_icon3.png" class="player-control-icon" style="opacity:1; height:2rem;" >
+                    <img src="./images/player_icon4.png" class="player-control-icon">
+                    <img src="./images/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="player-timer">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">04:35</span>
+                </div>
+            </div>
+            <div class="player3">
+                <div class="vol-section">
+                    <i class="fa-solid fa-volume-high icon1"></i>
+                    <input type="range" min="0" max="100" class="vol" step="1">
+                </div>
+
+            </div>
+                
+              
+            
+
+        </div>
+    </div>
+
+</body>
+</html>
